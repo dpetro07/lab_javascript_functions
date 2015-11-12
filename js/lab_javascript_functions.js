@@ -1,0 +1,3 @@
+function firstVariable() {
+  alert("string");
+}
