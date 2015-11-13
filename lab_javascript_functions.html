@@ -2,12 +2,27 @@
 <html>
 <head>
   <title>lab javascript functions</title>
-   <script src="js/lab_javascript_functions.js"> </script>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 </head>
 <body>
-  <input type="text" id="bacon"/>
-    <button onclick="firstVariable();">String?</button>
-   
+<!--Determine whether or not the variable is a sring-->
+  <input id="firstVariable" placeholder="Type sometihing"/>
+    <button class="btn btn-default" type="submit" onclick="firstVariable">String?</button>
+
+
+<!--Determines which number is smaller-->
+  <br>
+  <br>
+  <br>
+  <br>
+  <input id="firstNumber" placeholder="Enter your first number"/>
+  <br>
+  <input id="secondNumber" placeholder="Enter your second number"/>
+  <br>
+    <button class="btn btn-default" type="submit" onclick="whichIsSmaller();">Which # is smaller?</button>
+       
    <script src="js/lab_javascript_functions.js"> </script>
+   <script src="js/which_is_smaller.js"> </script>
 </body>
 </html>  
