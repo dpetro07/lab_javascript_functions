@@ -6,7 +6,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 </head>
 <body>
+
 <!--Determine whether or not the variable is a sring-->
+  <p>Enter characters to see if it's a string or not</p>
   <input id="firstVariable" placeholder="Type sometihing"/>
     <button class="btn btn-default" type="submit" onclick="firstVariable">String?</button>
 
@@ -16,13 +18,25 @@
   <br>
   <br>
   <br>
-  <input id="firstNumber" placeholder="Enter your first number"/>
+  <p>Put two numbers in the boxes below to find out which number is smaller</p>
+  <input id="firstNumber" placeholder="Pick a number(#)"/>
   <br>
-  <input id="secondNumber" placeholder="Enter your second number"/>
+  <input id="secondNumber" placeholder="Pick a number(#)"/>
   <br>
     <button class="btn btn-default" type="submit" onclick="whichIsSmaller();">Which # is smaller?</button>
        
    <script src="js/lab_javascript_functions.js"> </script>
    <script src="js/which_is_smaller.js"> </script>
+   <script src="js/concatenate.js"> </script>
+
+
+
+
+   <p id="demo"></p>
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
+</script>
 </body>
 </html>  
